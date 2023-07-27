@@ -1,4 +1,5 @@
 
+<span style="font-size: 24px;">
 <p><span style="font-size: 24px;"><b>Public Sentiment and Stances on AI: Insights from Comments on Recent Developments</b></span><br>
 <br>
 
@@ -85,7 +86,7 @@ We can see that the first couple of hours was when the bulk of the comments, and
 Could it be that everyone really is against AI or is it a case of people who have already adopted an Anti-AI narrative being drawn to an article that depicts AI in a relatively negative light? Whatever the case may be, we were sure that the data contained more insights yet to be uncovered which is exactly why we decided to perform even more analytical procedures in order to extract as much information as possible. Before performing an even deeper dive into the data, though, we figured this was a good opportunity to supplement our previous understanding of the words that were used by taking a look at the top most frequently used words, regardless of the topic, and how they stack up for each respective stance.<br>
 <iframe src="assets/html/words_per_stance.html" width="100%" height="650px"></iframe><br><br>
 
-<span style="font-size: 20px;"><b>Sarcasm Detection.</b></span><br>
+<span style="font-size: 20px;"><b>Sarcasm Detection</b></span><br>
 After taking a closer look at the comments and weighing them against their classified Stances and Sentiments we couldn’t help but notice that quite a few of them made ample use of sarcasm with comments being either fully ironic or having an ironic remark or two hidden somewhere in the almost paragraph-esque combination of sentences that made them up. So, in similar fashion to the Stance Detection we trained another model that this time detects instances of Sarcasm in the comments and classifies them as either containing Sarcasm or not. Again, the results were not very surprising with most Sarcastic or Sarcastically-leaning comments being Anti-AI. This could also provide an explanation for most, if not all, of the instances of Anti-AI comments that are Positive in their Sentiment.<br>
 
 
@@ -116,3 +117,5 @@ Overall, we see that the most interacted with comments dealt with the subjects o
 4. "The power of AI should not be underestimated, and we must be prepared to face the consequences of its misuse."<br>
 <br>
 Since we have spent quite some time with the actual comments we can confirm that these are really close to the real deal and contain most, if not all, of the concerns that the “AI is a Threat” demographic seems to share. Of course there were also comments that believed that AI will not only help Humanity in the short term by improving the current quality of life (e.g Automation in Medicine) but will also be the foundation of our future but as these comments were few and far between it is only logical that the model returned only the first type of comment as the average. This reveals that the vast majority of comments is on the shorter side with only a tiny minority breaching the 1,000 character threshold.<br>
+
+</span>
