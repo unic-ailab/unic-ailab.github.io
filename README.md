@@ -20,7 +20,7 @@ The comments section of an article is often the ground of heated discussions bet
 <iframe src="assets/html/sentiment_time_series.html" width="100%" height="500px"></iframe><br><br>
 <span style="font-size: 26px;"><b>Topic Modeling</b></span><br><br>
 An interesting first insight, although what would be even more interesting is finding the discussions those comments revolve around. A great way to achieve this, bar reading 1500 comments, is topic modeling. Topic modeling allows us to cluster the discussion under different categories based on their content. The algorithm we followed yielded five distinct topics. The comments were then assigned to their respective topic and the connections to their replies were established. In the following interactive map one can explore the various comments, how they are connected and what topic they belong to. Zooming into the map allows for better visualizing the connections between the comments. <br><br>
-<iframe src="assets/html/graph_coms_topics.html" width="120%" height="900px"></iframe><br><br>
+<iframe src="assets/html/graph_coms_topics.html" width="100%" height="850px"></iframe><br><br>
 
 
 
